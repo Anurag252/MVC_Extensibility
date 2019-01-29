@@ -1,0 +1,8 @@
+﻿
+@{
+    ViewBag.Title = "Index" + HttpContext.Current.Application[0].ToString();
+}
+
+<h2>Index</h2>
+<h1>Number of visits on route "testmycustomRoute"</h1>
+<p>@HttpContext.Current.Application[0].ToString()</p>
