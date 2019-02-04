@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3ControllerFactory", "Contr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4ActionInvoker", "4ActionInvoker\4ActionInvoker.csproj", "{35A2306A-A5A0-4782-9267-AE5D5169F6C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensibility", "Extensibility\Extensibility\Extensibility.csproj", "{A454A212-BDEB-4976-8301-7122E60524C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_ActionMethodSelectorAttribute", "5_ActionMethodSelectorAttribute\5_ActionMethodSelectorAttribute.csproj", "{F844A3D9-1008-4C84-B29C-38433C672594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,19 @@ Global
 		{35A2306A-A5A0-4782-9267-AE5D5169F6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35A2306A-A5A0-4782-9267-AE5D5169F6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A2306A-A5A0-4782-9267-AE5D5169F6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A454A212-BDEB-4976-8301-7122E60524C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A454A212-BDEB-4976-8301-7122E60524C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A454A212-BDEB-4976-8301-7122E60524C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A454A212-BDEB-4976-8301-7122E60524C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F844A3D9-1008-4C84-B29C-38433C672594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F844A3D9-1008-4C84-B29C-38433C672594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F844A3D9-1008-4C84-B29C-38433C672594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F844A3D9-1008-4C84-B29C-38433C672594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA4B20F-DD48-40B2-A698-DFFCF5663DF6}
 	EndGlobalSection
 EndGlobal
